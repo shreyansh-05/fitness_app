@@ -12,6 +12,8 @@
  "scripts": {
    "start:server": "nodemon",
    "start:client": "webpack-dev-server",
+   "predeploy" : "npm run build",
+   "deploy" : "gh-pages -d build",
    "seed": "node db/seeds",
    "build": "webpack",
    "start": "yarn build && node index"
