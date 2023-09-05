@@ -13,10 +13,10 @@
    "start:server": "nodemon",
    "start:client": "webpack-dev-server",
    "seed": "node db/seeds",
-   "predeploy" : "npm run build",
-   "deploy" : "gh-pages -d build"
-   "start": "yarn build && node index",
-   "build": "webpack"
+   "start": "react-scripts start",
+   "build": "react-scripts build",
+   "test": "react-scripts test",
+   "eject": "react-scripts eject"
  },
  "engines": {
    "node": "9.10.0"
