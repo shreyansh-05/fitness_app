@@ -13,10 +13,10 @@
    "start:server": "nodemon",
    "start:client": "webpack-dev-server",
    "seed": "node db/seeds",
-   "build": "webpack",
-   "start": "yarn build && node index",
    "predeploy" : "npm run build",
    "deploy" : "gh-pages -d build"
+   "start": "yarn build && node index",
+   "build": "webpack"
  },
  "engines": {
    "node": "9.10.0"
