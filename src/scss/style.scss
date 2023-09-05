@@ -1,0 +1,407 @@
+
+// ==================== RANDOM BITS AND BOBS ============
+header {
+  margin-bottom: 84px;
+}
+
+html {
+  background: -webkit-linear-gradient(to bottom, #747696, #1c1f2e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #747696, #1c1f2e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100%;
+
+}
+
+a {
+  color: #eaeaed;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  background-color: #77798f;
+  height: 3px;
+  margin: 3px;
+}
+
+.hr2 {
+  background-color: #77798f;
+  height: 8px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.home-title {
+  color: #eaeaed;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  letter-spacing: 2px;
+  font-weight: 900px;
+}
+
+// =================== NAV BAR ====================
+
+.navbar {
+  background: #ffffff00;
+}
+
+.navbar-menu {
+  background: #ffffff00;
+}
+
+// need a media query here for making the menu background a solid color when burger is active
+
+.navbar-menu a:hover {
+  background-color: #43465f;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navbar-item {
+  color: #eaeaed !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+// =================== BUTTONS AND LINKS =========================
+.login-buttons a {
+  margin-top: 15px;
+  color: white;
+  font-weight: bold !important;
+}
+
+a {
+  color: #eaeaed;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+a:hover {
+  color: #00aff7;
+}
+
+
+.button {
+  background-color: #00d6f4 ;
+  background-color: -webkit-linear-gradient(to bottom, #00d6f4, #009ff3)!important;  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to bottom, #00d6f4, #009ff3)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.auth-button {
+  background-color: #00d6f4AA ;
+  background-color: -webkit-linear-gradient(to left, #00d6f4, #009ff3);  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to left, #00d6f4, #009ff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 40px;
+  color: white;
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+// ============================= PAGE TITLES ============================
+
+.page-title-large {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.page-title-small{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 2 !important;
+}
+
+// ============================== PAGE TEXT =============================
+
+.sub-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  font-size: 24px;
+}
+
+.bold-sub-text{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+// ============================== inputs and forms ====================
+
+.input {
+  background-color: #4c546099;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.input::placeholder {
+  color: #eaeaed;
+}
+
+.input-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.has-padding-5 {
+  padding: 10px;
+}
+
+// ================================= ASIDES ==============================
+
+.aside {
+  // background-color: #ffffff00;
+  border-right: 5px, solid, green;
+  height: 100vh;
+  overflow: auto;
+}
+
+// .tribeAside {
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-direction: row;
+//   justify-content: center;
+//   // background-color: #777;
+//   height: 100vh;
+//   overflow: auto;
+// }
+
+.program-div {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.aside-program-card {
+  margin-bottom: 5px;
+  background-color: #00aff7;
+}
+
+.program-card {
+  background-color: #ff7d2e;
+}
+
+.card-content {
+  // background-color: blue;
+}
+
+.tribeAsideContainer-tribe {
+  background-color: #00aff7;
+  font-family: 'Montserrat', sans-serif;
+  height: 170px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+.tribeAsideContainer-leader {
+  background-color: #55566a;
+  height: 418px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  overflow: auto;
+
+}
+
+.each-leader {
+  background-color: #ffffff00;
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  box-shadow: none;
+}
+
+.tribe-average-stats {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.upcoming-tomorrow-and-exercise-show-in-profile {
+  background-color: #00aff7;
+  margin-bottom: 10px;
+  box-shadow: none !important;
+}
+.upcomingDetails {
+  margin-right: 10px;
+  color: #eaeaed;
+}
+
+.black-title{
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.white-title {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.rest-day-card {
+  background-color: orange;
+  margin-bottom: 10px;
+  color: black;
+}
+
+
+
+.news-feed-item-details {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold !important;
+}
+
+
+
+.aside-program-card {
+  // background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  margin-bottom: 20px;
+}
+
+
+.card-completed {
+  display: flex;
+  justify-content: space-between;
+  background: #84EE3E;  // margin-right: auto;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-not-done {
+  background-color: #F33820;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-unlogged {
+  background-color: #555668;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #eaeaed !important;
+}
+
+
+// ====================PROFILE=============
+
+.profile-picture {
+  border-radius: 40px;
+  border: 3px;
+}
+
+.historic-plans {
+  background-color: #29425899;
+  margin: 3px !important;
+}
+
+.active-plan-glow {
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0,210,255,1);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0,210,255,1);
+  box-shadow: 0px 0px 5px 3px rgba(0,210,255,1);
+}
+
+
+
+
+.feed-top-options {
+  background: rgba(0,210,255,1);
+}
+
+.feed-animations-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaed;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+input.programEdit  {
+  background: none;
+}
+
+
+.fas {
+  color: white;
+}
+
+.fas-regular {
+  color: inherit !important;
+}
+
+
+.challenge {
+  background: orange;  /* fallback for old browsers */
+  box-sizing: border-box;
+  border: 2px solid;
+}
+
+.challenges-index {
+  overflow: scroll;
+}
+
+.challenge-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.dashFeed {
+  color: white;
+}
+
+.dot-green {
+  color: #84EE3E;
+  // margin-right: 5px;
+}
+.dot-red {
+  color: #F33820;
+  // margin-right: 5px;
+}
+
+.dot-orange {
+  color: orange;
+  // margin-right: 5px;
+}
+.dot-grey {
+  color: grey;
+  // margin-right: 5px;
+}
+
+.create-card {
+  margin: 10px;
+  padding: 0px;
+}
+
+.feedLogWorkout {
+  margin-right: 10px;
+}
+
+.footer {
+  background: #ffffff00;  /* fallback for old browsers */
+
+}
+@import './partials/_flash.scss';
